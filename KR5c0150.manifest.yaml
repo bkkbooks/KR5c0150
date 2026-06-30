@@ -1,0 +1,112 @@
+canonical_identifier: bkk:krp/KR5c0150/v1
+canonical_location: https://kanripo.org/bkk/KR5c0150/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 太上說玄天大聖真武本傳神咒妙經
+  identifiers:
+    alt_id:
+    - DZ0754
+  date: '2015-08-29 00:48:34.945254'
+  source:
+    repository: kanripo
+    path: KR5c0150
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0150_000.yaml, hash: 'sha256:2ab861a81f7382bef268b6cbf4a8280d16089868c8151b9007156917c6ebb1b4'}
+  - {seq: 1, filename: KR5c0150_001.yaml, hash: 'sha256:978dcef423887e913d60d54397dfc47bd965bb51c7cc79e3409ba466ec651f69'}
+  - {seq: 2, filename: KR5c0150_002.yaml, hash: 'sha256:efb337a0ec3061aeebed37199a2fa13f4c2f0cc8929f0b2aafd3fd1307be816a'}
+  - {seq: 3, filename: KR5c0150_003.yaml, hash: 'sha256:e9fccc25f8711e6c5eb00f75230e520ec4c9f139f1821a70f6aecba0d315eb8a'}
+  - {seq: 4, filename: KR5c0150_004.yaml, hash: 'sha256:15a809b871988f1ea8bb91429663073a9ef0d8c54dfd391f9efe29a32b6c7669'}
+  - {seq: 5, filename: KR5c0150_005.yaml, hash: 'sha256:705c98ff5f1b966052a977023798e4e609133791fdb14939ece6f35736029875'}
+  - {seq: 6, filename: KR5c0150_006.yaml, hash: 'sha256:1aef4fae2db1ed165e96ec1e23ba17d180964a5b150b8e7f834ca86abce554a1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5c0150_001.markers.yaml, hash: 'sha256:f8a8fa4f964f4c182ff8b1389ff9af7088f06dfa5f406e47420ebdbaea5472f0'}
+  - {seq: 2, role: markers, filename: assets/KR5c0150_002.markers.yaml, hash: 'sha256:6de7657a0deb8c2925948f894e90c46785f5016e8305f2e31684f067d79879d6'}
+  - {seq: 3, role: markers, filename: assets/KR5c0150_003.markers.yaml, hash: 'sha256:89357d635a9fd54b5a6faa796bcbf0840d756730543b44b3e55cff378c87f261'}
+  - {seq: 4, role: markers, filename: assets/KR5c0150_004.markers.yaml, hash: 'sha256:f0d78bd68293fb8a2024384ba3ffe880346338b90bfad59d84d8f74d03e74143'}
+  - {seq: 5, role: markers, filename: assets/KR5c0150_005.markers.yaml, hash: 'sha256:91ceb1221256f3680e04a399e1442af29074145e6456733cc37025ebfc359f9f'}
+  - {seq: 6, role: markers, filename: assets/KR5c0150_006.markers.yaml, hash: 'sha256:78a59a144a6ef48bfafc2a3c20dba9747898d7e466285d5379a3bce823c281a2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5c0150_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 11517
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5c0150_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 7522
+  label: juan 002
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR5c0150_HFL_003-001a
+    span:
+    - body
+    - 0
+    - 5932
+  label: juan 003
+  type: section
+  level: 1
+- ref:
+    seq: 4
+    marker_id: KR5c0150_HFL_004-001a
+    span:
+    - body
+    - 0
+    - 5497
+  label: juan 004
+  type: section
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR5c0150_HFL_005-001a
+    span:
+    - body
+    - 0
+    - 5615
+  label: juan 005
+  type: section
+  level: 1
+- ref:
+    seq: 6
+    marker_id: KR5c0150_HFL_006-001a
+    span:
+    - body
+    - 0
+    - 7771
+  label: juan 006
+  type: section
+  level: 1
+hash: sha256:3877bc130c238713ad6bccf08c54f7390a1c17aed638c354a807bdca8807819b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
